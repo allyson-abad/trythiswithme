@@ -1,0 +1,81 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile {
+  display: inline-block;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+  margin-right: 10px;
+}
+
+.info {
+  margin-left: 10px;
+}
+.name {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+
+}
+.info-2 {
+  margin-bottom: 5px;
+}
+.profile-picture {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.mutual-friends {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+  margin-left: 2px;
+  font-size: 13px;
+  color: gray;
+}
+
+.my-profile {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: .25s;
+}
+
+.my-profile:hover {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
+  transition: .25s;
+}
+
+.add-friend {
+  background-color:rgb(74, 147, 255) ;
+  color: white;
+  border: none;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: .25s;
+}
+
+.add-friend:hover {
+  background-color:rgb(148, 191, 255) ;
+  transition: .25s;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
+}
+
+.add-friend:active {
+  background-color:rgb(238, 245, 255) ;
+  transition: .25s;
+}
